@@ -7,6 +7,7 @@ import java.util.List;
 public class StudentRepository {
 
     private List<Student> list1=new ArrayList<>();
+    
     private List<Teacher> list2=new ArrayList<>();
 
     private HashMap<Teacher,List<Student>> teacherWithStudentMap=new HashMap<>();
