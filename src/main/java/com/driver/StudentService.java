@@ -8,6 +8,7 @@ public class StudentService {
     public void addStudent(Student student) {
         studentRepository.addstudent(student);
     }
+    
 
     public void addTeacher(Teacher teacher) {
         studentRepository.addteacher(teacher);
