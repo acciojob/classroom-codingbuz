@@ -3,7 +3,6 @@ import lombok.Getter;
 import lombok.Setter;
 
 @Getter
-
 @Setter
 
 public class Teacher {
@@ -16,5 +15,11 @@ public class Teacher {
 
     public Teacher() {
 
+    }
+
+    public Teacher(String name, int numberOfStudents, int age) {
+        this.name = name;
+        this.numberOfStudents = numberOfStudents;
+        this.age = age;
     }
 }
